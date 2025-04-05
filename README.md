@@ -86,25 +86,25 @@ These insights enable stakeholders to make **strategic data-driven decisions**.
 
 📁 data-warehouse-project/
 │
-├── 📂 datasets/                        # Raw datasets used for the project (ERP and CRM data)
+├── 📂 datasets/                      # Raw datasets used for the project (ERP and CRM data)
 │
-├── 📂 docs/                            # Project documentation and architecture details
-│   ├── etl.drawio                     # Draw.io: ETL techniques and methods
-│   ├── data_architecture.drawio       # Draw.io: Project architecture
-│   ├── data_catalog.md                # Dataset catalog with field descriptions and metadata
-│   ├── data_flow.drawio               # Draw.io: Data flow diagram
-│   ├── data_models.drawio             # Draw.io: Data models (star schema)
-│   ├── naming-conventions.md          # Naming guidelines for tables, columns, and files
+├── 📂 docs/                          # Project documentation and architecture details
+│   ├── 📝 etl.drawio                 # Draw.io: ETL techniques and methods
+│   ├── 📝 data_architecture.drawio   # Draw.io: Project architecture
+│   ├── 📄 data_catalog.md            # Dataset catalog with field descriptions and metadata
+│   ├── 📝 data_flow.drawio           # Draw.io: Data flow diagram
+│   ├── 📝 data_models.drawio         # Draw.io: Data models (star schema)
+│   ├── 📄 naming-conventions.md      # Naming guidelines for tables, columns, and files
 │
-├── 📂 scripts/                         # SQL scripts for ETL and transformations
-│   ├── 📂 bronze/                      # Scripts for extracting and loading raw data
-│   ├── 📂 silver/                      # Scripts for cleaning and transforming data
-│   ├── 📂 gold/                        # Scripts for creating analytical models
+├── 📂 scripts/                       # SQL scripts for ETL and transformations
+│   ├── 📂 bronze/                    # Scripts for extracting and loading raw data
+│   ├── 📂 silver/                    # Scripts for cleaning and transforming data
+│   ├── 📂 gold/                      # Scripts for creating analytical models
 │
-├── 📂 tests/                           # Data quality checks and validation scripts
+├── 📂 tests/                         # Data quality checks and validation scripts
 │
-├── 📄 README.md                        # Project overview and instructions
-├── 📄 LICENSE                          # License information for the repository
-├── 📄 .gitignore                       # Git ignore rules
-└── 📄 requirements.txt                 # Dependencies and requirements for the project
+├── 📄 README.md                      # Project overview and instructions
+├── 📄 LICENSE                        # License information for the repository
+├── 📄 .gitignore                     # Git ignore rules
+└── 📄 requirements.txt               # Dependencies and requirements for the project
 
