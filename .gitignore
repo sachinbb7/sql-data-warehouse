@@ -1,0 +1,45 @@
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Local environment config
+*.env
+
+# SQL Server-related files (not relevant for PostgreSQL, but kept if migrating from SQL Server)
+*.mdf
+*.ldf
+*.ndf
+
+# PostgreSQL temporary files (optional)
+*.psql
+*.sql~
+
+# Logs, backups, and temp files
+*.log
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Exported data or generated files
+*.csv
+*.tsv
+*.xlsx
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# IDE and Editor folders
+.vscode/
+.idea/
+*.iml
+
+# Node/npm (if using any for frontend/tools)
+node_modules/
+
+# Python virtual envs (if used for scripts)
+venv/
+.env/
+__pycache__/
+*.pyc
